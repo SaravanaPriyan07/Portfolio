@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Saravana Priyan">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SP Media</title>
+  <link rel="stylesheet" href="media.css">
+  <script src="https://kit.fontawesome.com/493e951752.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+  <nav>
+    <div class="nav-left">
+      <img src="/media/images/logo.png" alt="logo" class="logo">
+      <ul>
+        <li><img src="/media/images/notification.png" alt="icon"></li>
+        <li><img src="/media/images/inbox.png" alt="icon"></li>
+        <li><img src="/media/images/video.png" alt="icon"></li>
+      </ul>
+    </div>
+    <div class="nav-right">
+
+
+      <div class="search-box">
+        <img src="/media/images/search.png">
+        <input type="text" placeholder="Search">
+      </div>
+
+      <div class="nav-user-icon online" onclick="settingsMenuToogle()">
+        <img src="/media/images/profile-pic.png" alt="profile pic">
+      </div>
+
+      </div>
+
+      <!--------settings-menu----------->
+
+      <div class="settings-menu">
+
+        <div id="dark-btn" onclick="darkMode()">
+          <span></span>
+        </div>
+
+
+        <div class="settins-menu-inner">
+          <div class="user-profile">
+            <img src="/media/images/profile-pic.png" alt="profile">
+            <div>
+              <p>William Wordsworth</p>
+              <a href="#">See More</a>
+            </div>
+          </div>
+          <hr>
+          <div class="user-profile">
+            <img src="/media/images/feedback.png" alt="profile">
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help us to improve the new design</a>
+            </div>
+          </div>
+          <hr>
+
+          <div class="setting-links">
+            <i class="fa-solid fa-gear settings-icon"></i>
+            <a href="#">Setting & Privacy <img src="/media/images/arrow.png" width="10px"></a>
+          </div>
+          <div class="setting-links">
+            <i class="fa-sharp fa-solid fa-circle-info settings-icon"></i>
+            <a href="#">Help & Support <img src="/media/images/arrow.png" width="10px"></a>
+          </div>
+          <div class="setting-links">
+            <i class="fa-solid fa-moon settings-icon"></i>
+            <a href="#">Display & Accessibility <img src="/media/images/arrow.png" width="10px"></a>
+          </div>
+          <div class="setting-links">
+            <i class="fa-solid fa-right-from-bracket settings-icon"></i>
+            <a href="#">Logout <img src="/media/images/arrow.png" width="10px"></a>
+          </div>
+
+
+        </div>
+        
+    </div>
+
+
+  </nav>
+
+  <div class="container">
+    <!---------left-sidebar----------->
+    <div class="left-sidebar">
+      <div class="imp-links">
+        <a href="#"><img src="/media/images/news.png" alt="news">Latest News</a>
+        <a href="#"><img src="/media/images/friends.png" alt="Friends">Friends</a>
+        <a href="#"><img src="/media/images/group.png" alt="Group">Group</a>
+        <a href="#"><img src="/media/images/marketplace.png" alt="Marketplace">Marketplace</a>
+        <a href="#"><img src="/media/images/watch.png" alt="Watch">Watch</a>
+        <a href="#">See More</a>
+      </div>
+      <div class="shortcut-links">
+        <p>Your Shortcuts</p>
+        <a href="#"><img src="/media/images/shortcut-1.png" alt="shortcuts">Web Developer</a>
+        <a href="#"><img src="/media/images/shortcut-2.png" alt="shortcuts">Web Design Course</a>
+        <a href="#"><img src="/media/images/shortcut-3.png" alt="shortcuts">Full Stack Development</a>
+        <a href="#"><img src="/media/images/shortcut-4.png" alt="shortcuts">Websites Experts</a>
+      </div>
+    </div>
+
+    <!---------main-content----------->
+    <div class="main-content">
+
+      <div class="story-gallery">
+        <div class="story story1">
+          <img src="/media/images/upload.png">
+          <p>Post Story</p>
+        </div>
+        <div class="story story2">
+          <img src="/media/images/member-1.png">
+          <p>Chloe</p>
+        </div>
+        <div class="story story3">
+          <img src="/media/images/member-2.png">
+          <p>Leon</p>
+        </div>
+        <div class="story story4">
+          <img src="/media/images/member-3.png">
+          <p>Rachel</p>
+        </div>
+        <div class="story story5">
+          <img src="/media/images/member-4.png">
+          <p>lee</p>
+        </div>
+      </div>
+
+
+      <div class="write-post-container">
+        <div class="user-profile">
+          <img src="/media/images/profile-pic.png" alt="profile">
+          <div>
+            <p>William Wordsworth</p>
+            <small>Public
+              <i class="fa-sharp fa-solid fa-caret-down"></i>
+            </small>
+          </div>
+        </div>
+
+        <div class="post-input-container">
+          <textarea srows="3" placeholder="What's on your mind, William?"></textarea>
+
+          <div class="add-post-links">
+            <a href="#"><img src="/media/images/live-video.png">Live Video</a>
+            <a href="#"><img src="/media/images/photo.png">Live/Video</a>
+            <a href="#"><img src="/media/images/feeling.png">Feeling/Activity</a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="post-container">
+        <div class="post-row"><div class="user-profile">
+          <img src="/media/images/profile-pic.png" alt="profile">
+          <div>
+            <p>William Wordsworth</p>
+            <span>June 24 2023, 14:40 pm</span>
+          </div>
+        </div>
+        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+      </div>
+        
+        <p class="post-text">I'm a <span>Front End Developer</span> who loves creating websites and apps. I believe that you have to be able to see the big picture when you're building something, and that's why I like to work with a team. It's also why I love working in groups where everyone has a voice, but we all work together toward the same goal—to make your site better than you could ever do on your own. <br>
+          You can find me playing video games or watching TV shows when I'm not working on my projects or building excellent new tools for my clients. <a href="#">#Web Developer</a> 
+        <a href="#">@Linkedin</a> </p>
+
+        <img src="/media/images/feed-image-1.png" class="post-img">
+
+        <div class="post-row">
+          <div class="activity-icons">
+            <div>
+              <div><img src="/media/images/like-blue.png">12044</div>
+              <div><img src="/media/images/comments.png">1024</div>
+              <div><img src="/media/images/share.png">1122</div>
+            </div>
+          </div>
+          <div class="post-profile-icons">
+            <img src="/media/images/profile-pic.png" alt="profile-pic">
+            <i class="fa-sharp fa-solid fa-caret-down"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="post-container">
+        <div class="post-row"><div class="user-profile">
+          <img src="/media/images/profile-pic.png" alt="profile">
+          <div>
+            <p>William Wordsworth</p>
+            <span>June 24 2023, 14:40 pm</span>
+          </div>
+        </div>
+        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+      </div>
+        
+        <p class="post-text"><span> Koh Samui, Thailand</span> The second-largest island of Thailand after Phuket, Ko Samui is a gem of an island in the Koh Samui (or Samui) Archipelago in the Gulf of Thailand. Once a hidden secret of only persevering travelers, Samui Island has transformed into one of Thailand's most visited tourist destinations. Breathtakingly beautiful beaches, a long coastline along the sea, dense mountainous forests, and luxurious resorts define Koh Samui. From the wealthiest holidaymakers to budget travelers, the island has something to offer everyone. <a href="#">#Koh Samui</a> 
+        <a href="#"><i class="fa-sharp fa-solid fa-location-dot"></i> Thailand</a> </p>
+
+        <img src="/media/images/feed-image-2.png" class="post-img">
+
+        <div class="post-row">
+          <div class="activity-icons">
+            <div>
+              <div><img src="/media/images/like.png">121044</div>
+              <div><img src="/media/images/comments.png">11024</div>
+              <div><img src="/media/images/share.png">10122</div>
+            </div>
+          </div>
+          <div class="post-profile-icons">
+            <img src="/media/images/profile-pic.png" alt="profile-pic">
+            <i class="fa-sharp fa-solid fa-caret-down"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="post-container">
+        <div class="post-row"><div class="user-profile">
+          <img src="/media/images/profile-pic.png" alt="profile">
+          <div>
+            <p>William Wordsworth</p>
+            <span>June 24 2023, 14:40 pm</span>
+          </div>
+        </div>
+        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+      </div>
+        
+        <p class="post-text"><span>McGill University
+        </span> $165-million for McGill's world-leading inclusive genomics and RNA research program. <a href="#">#McGill University
+        </a> 
+        <a href="#"><i class="fa-sharp fa-solid fa-location-dot"></i> Canada</a> </p>
+
+        <img src="/media/images/feed-image-3.png" class="post-img">
+
+        <div class="post-row">
+          <div class="activity-icons">
+            <div>
+              <div><img src="/media/images/like.png">121044</div>
+              <div><img src="/media/images/comments.png">11024</div>
+              <div><img src="/media/images/share.png">10122</div>
+            </div>
+          </div>
+          <div class="post-profile-icons">
+            <img src="/media/images/profile-pic.png" alt="profile-pic">
+            <i class="fa-sharp fa-solid fa-caret-down"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="post-container">
+        <div class="post-row"><div class="user-profile">
+          <img src="/media/images/profile-pic.png" alt="profile">
+          <div>
+            <p>William Wordsworth</p>
+            <span>June 24 2023, 14:40 pm</span>
+          </div>
+        </div>
+        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+      </div>
+        
+        <p class="post-text">Apple created Swift and Xcode so anyone with an idea can create something incredible. Our developer tools and platforms help higher education institutions empower the next generation of innovators with skills to solve real-world challenges and code a brighter world.<a href="#">#Develop the future.
+        </a> <br> 
+        <a href="#"><i class="fa-sharp fa-solid fa-location-dot"></i> Apple.US</a> </p>
+
+        <img src="/media/images/feed-image-4.png" class="post-img">
+
+        <div class="post-row">
+          <div class="activity-icons">
+            <div>
+              <div><img src="/media/images/like.png">121044</div>
+              <div><img src="/media/images/comments.png">11024</div>
+              <div><img src="/media/images/share.png">10122</div>
+            </div>
+          </div>
+          <div class="post-profile-icons">
+            <img src="/media/images/profile-pic.png" alt="profile-pic">
+            <i class="fa-sharp fa-solid fa-caret-down"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="post-container">
+        <div class="post-row"><div class="user-profile">
+          <img src="/media/images/profile-pic.png" alt="profile">
+          <div>
+            <p>William Wordsworth</p>
+            <span>June 24 2023, 14:40 pm</span>
+          </div>
+        </div>
+        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+      </div>
+        
+        <p class="post-text"><span>Can AI replace humans?
+        </span> It is not possible for AI to ever replace humans.
+        Our cognitive ability differentiates us from all the creatures on planet earth.
+        Humans can feel emotions for each other which influences our decisions and actions.
+        An AI-induced machine can never feel so, it is programmed to undergo certain tasks based on certain conditions. But it can never think on its own and make decisions. <a href="#">#Human.
+        </a>
+
+        <img src="/media/images/feed-image-5.png" class="post-img">
+
+        <div class="post-row">
+          <div class="activity-icons">
+            <div>
+              <div><img src="/media/images/like.png">121044</div>
+              <div><img src="/media/images/comments.png">11024</div>
+              <div><img src="/media/images/share.png">10122</div>
+            </div>
+          </div>
+          <div class="post-profile-icons">
+            <img src="/media/images/profile-pic.png" alt="profile-pic">
+            <i class="fa-sharp fa-solid fa-caret-down"></i>
+          </div>
+        </div>
+      </div>
+
+      <button type="button" class="load-more-btn">Load More</button>
+
+
+    </div>
+
+    <!---------right-sidebar----------->
+    <div class="right-sidebar">
+
+      <div class="sidebar-title">
+        <h4>Events</h4>
+        <a href="#">See All</a>
+      </div>
+
+      <div class="event">
+        <div class="left-event">
+          <h3>27</h3>
+          <span>June</span>
+        </div>
+        <div class="right-event">
+          <h4>Social Media</h4>
+          <p><i class="fa-solid fa-location-dot"></i>Anna Tower</p>
+          <a href="#">More Info</a>
+        </div>
+      </div>
+
+      <div class="event">
+        <div class="left-event">
+          <h3>28</h3>
+          <span>June</span>
+        </div>
+        <div class="right-event">
+          <h4>Mobile Marketing</h4>
+          <p><i class="fa-solid fa-location-dot"></i>Anna Tower</p>
+          <a href="#">More Info</a>
+        </div>
+      </div>
+
+      <div class="sidebar-title">
+        <h4>Advertisement</h4>
+        <a href="#">Close</a>
+      </div>
+
+      <img src="/media/images/advertisement.png" alt="advertisement" class="sidebar-adds">
+
+      <div class="sidebar-title">
+        <h4>Conversation</h4>
+        <a href="#">Hide Chat</a>
+      </div>
+
+
+      <div class="online-list">
+        <div class="online">
+          <img src="/media/images/member-1.png">
+        </div>
+        <p>Chloe</p>
+      </div>
+      <div class="online-list">
+        <div class="online">
+          <img src="/media/images/member-2.png">
+        </div>
+        <p>Leon</p>
+      </div>
+      <div class="online-list">
+        <div class="online">
+          <img src="/media/images/member-3.png">
+        </div>
+        <p>Rachel</p>
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="footer">
+    Copyright &copy; 2023 - Saravana Priyan.
+  </div>
+
+  <script src="/media/media.js"></script>
+
+
+</body>
+</html>
